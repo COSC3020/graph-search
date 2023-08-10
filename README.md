@@ -18,7 +18,7 @@ code, but you can base yours on test code from other exercises.
 
 ## Runtime Analysis
 
-What is the worst-case big-$\Theta$ complexity of your implementation? Add your
+What is the worst-case big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
 
 ## Bonus

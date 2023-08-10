@@ -7,7 +7,7 @@ Given a graph, a start node, and a node we're looking for:
     - if current vertex $v$ is the node we're looking for, return it
     - mark $v$ as visited
     - for each edge $(v,w)$
-            - recursively process $w$ unless marked visited
+        - recursively process $w$ unless marked visited
 
 Implement the algorithm. You can choose any of the data structures we covered
 (adjacency matrix or adjacency list) for the implementation. Your function

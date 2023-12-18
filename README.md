@@ -11,10 +11,15 @@ Given a graph, a start node, and a node we're looking for:
 
 Implement the algorithm. You can choose any of the data structures we covered
 (adjacency matrix or adjacency list) for the implementation. Your function
-should return the list of nodes on the path from the source to the target (not
-the list of nodes that you looked at during the search). Start with the template
-I provided in `code.js` and test your new function. I have not provided any test
-code, but you can base yours on test code from other exercises.
+should return the list of nodes on the path from the start to the target (not
+the list of nodes that you looked at during the search). If start and target are
+the same, it should return a list with only that node. If there is no parth from
+the start to the target, it should return an empty list. Start with the template
+I provided in `code.js` and test your new function.
+
+I have not provided any test code, but you can base yours on test code from
+other exercises. Your tests must check the correctness of the result of running
+the function and run automatically when you commit through a GitHub action.
 
 ## Runtime Analysis
 

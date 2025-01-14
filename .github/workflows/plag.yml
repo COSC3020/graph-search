@@ -1,3 +1,4 @@
+name: Plagiarism Note Check
 on:
   push:
 

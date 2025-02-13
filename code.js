@@ -1,3 +1,4 @@
-// eslint-disable-next-line no-unused-varsfunction depthFirstSearch(graph, startNode, targetNode) {
+// eslint-disable-next-line no-unused-vars
+function depthFirstSearch(graph, startNode, targetNode) {
     return [];
 }

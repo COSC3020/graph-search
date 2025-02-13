@@ -7,11 +7,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-      - name: ESLint
-        uses: AbdulRehman-1/eslint-action@latest
-        with:
-          eslintrc: false # Set this to true if you want to use your own .eslintrc rules
-          extensions: 'js'
-          auto-fix-before-test: false # Set this to true if want to format and fix all the lint issue before testing
-          annotations: true
+      - run: npm i eslint
+      - run: npx eslint -c eslint.config.mjs code.js
